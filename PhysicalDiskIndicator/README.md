@@ -6,7 +6,7 @@
 
 ノートパソコンを買ったらHDDのインジケータが省略されており、自動起動やNLogについても勉強したかった為、作ってみました。
 
-スタートアップフォルダやレジストリ（SOFTWARE\Microsoft\Windows\CurrentVersion\Run）で起動させてみましたが、現在はタスクスケジューラで起動させています。
+以前は、スタートアップフォルダやレジストリ（SOFTWARE\Microsoft\Windows\CurrentVersion\Run）で起動させていました。現在は、Windows標準のタスクスケジューラに手動で登録しています。
 
 %LOCALAPPDATA%\PDI\PDI.logというログファイルが作成され、起動・終了が記録されます。
 
